@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Candidate Search App  
 
 This is a React application that fetches and displays GitHub users as potential candidates. Users can accept or reject candidates, and accepted candidates are saved to local storage.
@@ -46,6 +47,8 @@ README.md
 ```
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 4b64648 (Add candidate management system with search and save functionality)
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -58,6 +61,7 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<<<<<<< HEAD
 >>>>>>> d218fa5 (Add comprehensive type definitions for candidate management)
 
 
@@ -146,3 +150,26 @@ git commit -m "Added README and ensured necessary files are included"
 git push origin main
 >>>>>>> 3f3e6b4 (Create README.md)
 >>>>>>> d218fa5 (Add comprehensive type definitions for candidate management)
+=======
+
+* Configure the top-level `parserOptions` property as follows:
+
+```js
+export default {
+  // other rules...
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+  },
+}
+```
+
+* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
+* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
+* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+
+---
+© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+>>>>>>> 4b64648 (Add candidate management system with search and save functionality)
